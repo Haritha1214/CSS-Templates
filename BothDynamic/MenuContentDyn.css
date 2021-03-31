@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+body {margin: 0;}
+
+ul.sidenav {
+  list-style-type: none;
+  margin: 0;
+  padding: 13px;
+  width: 18%;
+  background-color:mediumvioletred;
+  position:absolute;
+  height: 147%;
+  overflow: auto;
+  
+}
+
+ul.sidenav li a {
+  display: block;
+  color: #000;
+  height:100%;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size:20px;
+  border-bottom: 2px solid #bdb8d7;
+  border-bottom: 2px solid rgba(0,0,0,0.05);
+  border-top: 2px solid rgba(255,255,255,0.05);
+}
+ 
+ .sidenav .active{
+  background-color:mistyrose;
+  height:100%;
+  color: white;
+}
+
+ul.sidenav li a:hover:not(.active) {
+  background-color:palevioletred;
+  color: white;
+}
+ul li a .fas{
+  width: 25px;
+}
+
+div.content {
+  margin-left:20%;
+  padding: 1px 16px;
+  height: 1000px;
+  background-color: rgb(199, 205, 211);
+  font-size: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  ul.sidenav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  ul.sidenav li a {
+    float: left;
+    padding: 15px;
+  }
+  
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  ul.sidenav li a {
+    text-align: center;
+    float: none;
+  }
+}
