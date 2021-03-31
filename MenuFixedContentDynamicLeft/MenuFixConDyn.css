@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+   background-color:mistyrose;
+}
+
+.cover{
+  display: flex;
+  position: relative;
+}
+
+.cover .sidebar{
+  width: 200px;
+  height: 100%;
+  background:darkseagreen;
+  padding: 30px 0px;
+  position: fixed;
+}
+
+.cover .sidebar h2{
+  color:indianred;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.cover .sidebar ul li{
+  padding: 15px;
+  border-bottom: 1px solid #bdb8d7;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(255,255,255,0.05);
+}    
+
+.cover .sidebar ul li a{
+  color:black;
+  display: block;
+}
+
+.cover .sidebar ul li a .fas{
+  width: 25px;
+}
+
+.cover .sidebar ul li:hover{
+  background-color:crimson;
+}
+    
+.cover .sidebar ul li:hover a{
+  color: #fff;
+}
+ 
+.cover .sidebar .social_media{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.cover .sidebar .social_media a{
+  display: block;
+  width: 40px;
+  background:black;
+  height: 40px;
+  line-height: 45px;
+  text-align: center;
+  margin: 0 5px;
+  color:darkgoldenrod;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.cover .sidebar .social_media a:hover{
+  background-color:honeydew;
+}
+    
+
+.cover .main_content{
+  width: 100%;
+  margin-left: 200px;
+  
+}
+
+.cover .main_content .header{
+  padding: 20px;
+  background:lightblue;
+  color:firebrick;
+  border-bottom: 1px solid #e0e4e8;
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+.cover .main_content .info{
+  margin: 20px;
+  color:black;
+  line-height: 25px;
+}
+
+.cover .main_content .info div{
+  margin-bottom: 20px;
+}
