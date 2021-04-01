@@ -1,0 +1,97 @@
+body{
+    margin:0;
+    padding:0;
+    line-height: 2em;
+    background-color: rgb(173, 153, 153);
+    
+    }
+    
+    
+    
+    
+    #topsection{
+    background:seagreen;
+    height: 80px; 
+    
+    }
+  
+    #topsection h1{ 
+    position:relative;
+    top: 10px;
+      }
+    
+    #topsection h1{
+    margin: 0;
+    padding-top: 15px;
+    }
+    
+    #contentwrapper{
+    float: left;
+    width: 100%;
+    }
+    
+    #contentcolumn{
+    margin: 0 20% 0 20%; 
+    }
+    
+    #leftcolumn{
+    float: left;
+    width: 20%;
+    margin-left: -100%;
+    background:thistle;
+    }
+    
+    #rightcolumn{
+    float: right;
+    width: 20%; 
+    margin-left: -20%;  
+    background:thistle;
+    }
+    
+    #footer{
+    clear: left;
+    width: 100%;
+    background:seagreen;
+    color:black;
+    text-align: center;
+    padding: 4px 0;
+    height: 50px;
+    font-size: 20px;
+    }
+    
+    
+    .innertube{
+    margin: 10px; 
+    margin-top: 0;
+    font-size: 28px;
+    padding-left: 3px;
+    }
+    
+    /* ####### responsive layout CSS ####### */
+    
+    @media (max-width: 840px){ /* 1st level responsive layout break point- drop right column down*/
+      
+      #rightcolumn{
+      float: none;
+      width: 100%;
+      margin-left: 0;
+      clear: both;
+      }
+      
+      #contentcolumn{
+      margin-right: 0;
+      }
+    }
+    
+    @media (max-width: 600px){ /* 2nd level responsive layout break point- drop left column down */
+      #leftcolumn{
+      float: none;
+      width: 100%;
+      clear: both;
+      margin-left: 0;
+      }
+      
+      #contentcolumn{
+      margin-left: 0;
+      }
+    }
