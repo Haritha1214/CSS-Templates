@@ -88,14 +88,7 @@ body{
   
 }
 
-.cover .main_content .header{
-  padding: 20px;
-  background:lightblue;
-  color:firebrick;
-  border-bottom: 1px solid #e0e4e8;
-  font-size: 28px;
-  font-weight: bolder;
-}
+
 
 .cover .main_content .info{
   margin: 20px;
