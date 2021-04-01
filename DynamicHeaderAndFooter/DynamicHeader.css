@@ -67,9 +67,8 @@ body{
     padding-left: 3px;
     }
     
-    /* ####### responsive layout CSS ####### */
     
-    @media (max-width: 840px){ /* 1st level responsive layout break point- drop right column down*/
+    @media (max-width: 840px){ 
       
       #rightcolumn{
       float: none;
@@ -83,7 +82,7 @@ body{
       }
     }
     
-    @media (max-width: 600px){ /* 2nd level responsive layout break point- drop left column down */
+    @media (max-width: 600px){ 
       #leftcolumn{
       float: none;
       width: 100%;
